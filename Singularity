@@ -1,5 +1,5 @@
 BootStrap:docker
-From:centos:ubunt
+From:ubuntu:latest
 %runscript
 echo "This gets run when you run the image!" 
 exec echo "Hello" "$@"
