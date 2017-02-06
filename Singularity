@@ -7,4 +7,4 @@ exec echo "Hello" "$@"
 %post
    echo "DBG: Hello from inside the container"
    mkdir -p /code
-   echo "End of the post"
+   echo "DBG: End of the post"
